@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<body style="text-align: center;">
+    <img src="https://web.archive.org/web/19981111183552im_/http://google.stanford.edu/google.jpg" alt="google">
+    
+    <div style="background-color: lightgray;">
+        <p>Search the web using Google!</p>
+        <form action="server/requestGoogle.html" method="get">
+            <div >
+                <input type="text" name="q" id="q">
+            </div>
+            <div>
+                <select id="cantResult" name="cantResult">
+                    <option value="10">10 resultados</option>
+                    <option value="30">30 resultados</option>
+                    <option value="100">100 resultados</option>
+                </select>
+                <input type="submit" value="Google search">
+                <input type="submit" value="Tengo suerte">
+            </div>
+        </form>
+
+        <p>
+            Index contains ~25 million pages (soon to be much bigger)
+        </p>
+
+        <!-- select>option*3[value="$0"]{$0 resultados} -->
+        <!-- ul>li*10{User$} -->
+        <!-- ul>li*10>a[href="cliente$0html"]{Cliente $} -->
+        <!-- div.titulo -->
+        <!-- div#arriba -->
+    </div>
+</body>
+</html>

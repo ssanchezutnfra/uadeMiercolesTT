@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+
+        li:last-child {
+            background-color: red;
+        }
+
+        li:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        input[type=submit] {
+            padding: .5rem .9rem;
+            color: rgb(118, 118, 118);
+            border: 1px solid rgb(230, 230, 230);
+            border-radius: 5px;
+            background-color: #f8f9fa;
+            font-size: .9rem;
+            margin: 0 .5rem 0 .5rem;
+        }
+
+        input[type=submit]:hover {
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        input[type=text] {
+            width: 100px;
+        }
+
+        input[type=text]:focus {
+            width: 300px;
+        }
+
+        p:hover {
+            background-color: lightblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Cliente 1</li>
+        <li>Cliente 2</li>
+        <li>Cliente 3</li>
+        <li>Cliente 4</li>
+        <li>Cliente 5</li>
+    </ul>
+
+    <input type="submit" value="Enviar">
+    <input type="text" name="" id="" placeholder="buscar">
+    <p>hola</p>
+</body>
+</html>

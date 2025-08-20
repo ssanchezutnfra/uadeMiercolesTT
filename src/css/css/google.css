@@ -1,0 +1,84 @@
+html {
+    /* tamañao de fuente x defecto */
+    font-size: 16px; 
+}
+
+.menu {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin: .3rem;
+}
+
+.menu img {
+    width: 40px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 660px) {
+    .logo img {
+        width: 200px;
+    }
+}
+
+.buscador {
+    text-align: center;
+}
+
+.buscador input[type=text] {
+    width: 600px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 660px) {
+    .buscador input[type=text] { 
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .buscador input[type=text] { 
+        width: 350px;
+    }
+}
+    
+
+.buscador input[type=text]:hover {
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.buscador input[type=submit] {
+    padding: .5rem .9rem;
+    color: rgb(118, 118, 118);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    font-size: .9rem;
+    margin: 0 .5rem 0 .5rem;
+}
+.buscador input[type=submit]:hover {
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.menu .material-symbols-outlined:hover {
+    background-color: lightgray;
+    border-radius: 50px;
+}
